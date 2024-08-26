@@ -1,0 +1,268 @@
+body {  
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.A4 {
+    width: 210mm;
+    height: 297mm;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    box-sizing: border-box;
+    max-height: fit-content;
+}
+
+.sheet {
+    padding: 40px;
+}
+
+.resume {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13.0736px;
+    font-weight: 400;
+    line-height: 1.5;
+    min-height: 1090.41px;
+    overflow: hidden;
+}
+
+.resume h1 {
+    font-size: 2.86em;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+
+.resume h2 {
+    font-size: 1.43em;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+.resume p {
+    margin-bottom: 1em;
+}
+
+.resume p:last-child {
+    margin-bottom: 0;
+}
+
+.resume ul {
+    padding-left: 20px;
+}
+
+.resume .resume__header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.resume__header-content {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.resume .resume__content {
+    width: 100%;
+}
+
+.resume__photo {
+    width: 100px;
+    height: 160px;
+    margin-right: 2em;
+}
+
+.resume__photo img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 60%;
+}
+
+.resume__details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.resume .info-item {
+    margin-bottom: 0.2em;
+    font-weight: 300;
+    display: flex;
+}
+
+.resume .info-item:last-child {
+    margin-bottom: 0;
+}
+
+.resume .info-label {
+    display: inline-block;
+    padding-right: 0.63em;
+    font-size: 1.14em;
+    min-width: 2.19em;
+    text-align: left;
+}
+
+.resume .info-label img {
+    width: 20px;
+    height: 20px;
+}
+
+.resume .resume__columns {
+    display: flex;
+}
+
+.resume .resume__main {
+    flex: 50%;
+}
+
+.resume .resume__side {
+    flex: 50%;
+}
+
+.resume .resume__section {
+    margin-bottom: 4em;
+}
+
+.resume .resume__section-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.43em;
+}
+
+.resume .resume__section-title img {
+    width: 30px;
+    height: 30px;
+    background: none;
+    margin-right: 15px;
+}
+
+.resume .resume__section-title > i {
+    margin-right: 0.63em;
+    font-size: 1.14em;
+    background-color: #5695cd;
+    color: #fff;
+    border: 0.25em solid #aacae6;
+    border-radius: 50%;
+    width: 2.51em;
+    height: 2.51em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.6;
+}
+
+.resume .resume__section-title > h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.resume .other-info p > b {
+    color: #555;
+}
+
+.resume .other-info p {
+    text-align: left;
+}
+
+.resume .xp-item {
+    margin-bottom: 4em;
+    text-align: left;
+}
+
+.resume .xp-item:last-child {
+    margin-bottom: 0;
+}
+
+.resume .xp-job {
+    font-size: 1.14em;
+    font-weight: 600;
+    line-height: 1.25;
+}
+
+.resume .xp-job span,
+.resume .xp-job small {
+    font-weight: 400;
+}
+
+.resume .xp-job small {
+    font-size: 0.9em;
+}
+
+.resume .xp-date {
+    font-size: 0.8em;
+    margin-top: 0.3em;
+    margin-bottom: 1em;
+    color: #5695cd;
+}
+
+.resume .extra {
+    margin-bottom: 2em;
+}
+
+.resume .extra:last-child {
+    margin-bottom: 0;
+}
+
+.resume .extra-info small {
+    color: #666;
+    display: inline-block;
+    font-size: 0.7em;
+}
+
+.resume .extra-details,
+.resume .extra-details__progress {
+    border-radius: 6px;
+}
+
+.resume .extra-details {
+    margin-top: 0.5em;
+    background-color: #d1d9e1;
+    width: 100%;
+    height: 5px;
+    position: relative;
+}
+
+.resume .extra-details__progress {
+    background-color: #5695cd;
+    height: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.resume .lang-item {
+    margin-bottom: 2em;
+}
+
+.resume .lang-item:last-child {
+    margin-bottom: 0;
+}
+
+.resume .lang-label {
+    width: 8em;
+}
+
+@media (max-width: 768px) {
+    .resume .resume__columns {
+        flex-direction: column;
+    }
+
+    .resume .resume__main,
+    .resume .resume__side {
+        width: 100%;
+    }
+
+    .A4 {
+        width: 100%;
+        height: auto;
+    }
+}
